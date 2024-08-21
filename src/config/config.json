@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Asgann",
-    "base_url": "https://astroplate.netlify.app",
+    "title": "BoltCo",
+    "base_url": "#",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
 
     "logo_width": "250",
     "logo_height": "50",
-    "logo_text": "Asgann"
+    "logo_text": "BoltCo"
   },
 
   "settings": {
@@ -23,12 +23,12 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "COPYRIGHT  © asgann 2024"
+    "copyright": "COPYRIGHT  © BoltCo 2024"
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Découvrir maintenant",
+    "label": "Prendre rendez-vous",
     "link": "https://github.com/zeon-studio/astroplate"
   },
 

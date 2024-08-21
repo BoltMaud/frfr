@@ -1,7 +1,7 @@
 ---
 title: LA MEILLEURE REDISTRIBUTION POSSIBLE
 email: williamjacob@email.com
-image: "/images/distribution.png"
+image: ""
 description: this is meta description
 ---
 

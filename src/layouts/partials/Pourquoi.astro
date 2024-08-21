@@ -5,16 +5,16 @@ const { pourquoi } = Astro.props;
 
 {
   pourquoi.data && (
-    <section class="section-sm mygreen">
+    <section class="section-sm ">
       <div class="container">
         <div class="row">
-            <h2 set:html={markdownify(pourquoi.data.title)} class="mb-3" />
+            <h2 set:html={markdownify(pourquoi.data.title)} class="mb-4" />
                 {pourquoi.data.pourquoi.map(
                   (item: {
                     title: string;
                     description: string;
                   }) => (
-                  <div class="mb-14 md:col-4 lg:col-3">
+                  <div class="mb-14 md:col-4 lg:col-4">
                       <div class="px-2 py-2 ">
                         <div class="flex items-center">
                           <div class="rounded blackandwhite listof p-8 text-center">

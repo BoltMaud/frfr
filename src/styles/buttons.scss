@@ -3,12 +3,13 @@
 }
 
 .btn-sm {
-  @apply rounded-sm px-5 py-1.5 text-sm;
+  @apply rounded-sm  text-sm;
+  border-radius: 2rem;
 }
 
 .btn-primary {
-  @apply border-primary bg-primary text-white no-underline;
-  border-radius: 1.4rem;
+  @apply border-primary bg-primary text-white ;
+  border-radius: 2rem;
 }
 
 .btn-outline-primary {

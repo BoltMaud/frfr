@@ -1,27 +1,23 @@
 {
   "main": [
     {
-      "name": "Comment ça marche ?",
-      "url": "#commentcamarche"
+      "name": "Accueil",
+      "url": "#accueil"
     },
     {
-      "name": "FAQ",
-      "url": "/faq"
+      "name": "Réalisations",
+      "url": "#realisations"
     },
 
     {
-      "name": "Réseaux",
-      "url": "#confiance"
+      "name": "Tarifs",
+      "url": "#tarifs"
     }
   ],
   "footer": [
     {
       "name": "Mentions Légales et données personnelles",
       "url": "/mentionslegales"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
     }
   ]
 }

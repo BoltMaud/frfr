@@ -1,14 +1,12 @@
 ---
-title: "Pourquoi choisir Asgann ?"
+title: "Tarifs"
 enable: true
 
 pourquoi:
-  - title: "Engagez le changement"
-    description: "En proposant Asgann comme service de seconde main, vous sensibilisez vos équipes sur l'importance de l'économie circulaire des vêtements. La récurence des évènements leur permet un réel changement de comportement."
-  - title: "Redonnez du pouvoir d'achat "
-    description: "Vos collaborateurs gagnent de l'argent sur la vente de leurs vêtements. Ils ont aussi la possibilité d'acheter des vêtements de qualité de seconde main à un prix avantageux lors de l'évènement de vide dressing."
-  - title: "Animez vos bureaux"
-    description: "Un évènement de vide dressing est un agréable moment de partage qui fait plaisir à vos équipes et lie vos collaborateurs sur des thématiques qui parlent à tous."
-  - title: "Valorisez vos actions"
-    description: "Chaque vêtement collecté et redistribué est une bonne action qui   valorise votre marque employeur. Vos collaborateurs seront ravis de partager cette initiative."
+  - title: "A la page"
+    description: "Vous avez une feuille à corriger ou valider ? L'offre à la page vous sastifaira parfaitement avec un tarif préférentiel de euros HT (sous condition)."
+  - title: "Projet to be done "
+    description: "Votre idée ou projet a besoin d'être concrétisé. Boltco propose des plans sur mesure à l'écoute du client. Les tarifs commencent à .. pour . "
+  - title: "Mission de plusieurs mois"
+    description: "BoltCo accompagne des grands clients à projets ambitieux. N'hésitez pas à demander un rendez-vous pour connaitre les disponibilités et modalités."
 ---

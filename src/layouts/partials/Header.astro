@@ -1,6 +1,5 @@
 ---
 import Logo from "@/components/Logo.astro";
-import ThemeSwitcher from "@/components/ThemeSwitcher.astro";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
 import { IoSearch } from "react-icons/io5";
@@ -18,7 +17,7 @@ export interface NavigationLink {
 }
 
 const { main }: { main: NavigationLink[] } = menu;
-const { navigation_button, settings } = config;
+const { site, navigation_button, settings } = config;
 const { pathname } = Astro.url;
 ---
 
@@ -26,7 +25,7 @@ const { pathname } = Astro.url;
   <nav class="navbar container">
     <!-- logo -->
     <div class="order-0">
-      <Logo />
+      <h2> {site.title}</h2>
     </div>
     <!-- navbar toggler -->
     <input id="nav-toggle" type="checkbox" class="hidden" />
@@ -48,7 +47,7 @@ const { pathname } = Astro.url;
     <!-- /navbar toggler -->
     <ul
       id="nav-menu"
-      class="navbar-nav order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8"
+      class="navbar-nav order-1 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8"
     >
       {
         main.map((menu) => (
@@ -83,11 +82,14 @@ const { pathname } = Astro.url;
                         }`}
                       >
                         {child.name}
+          
                       </a>
                     </li>
                   ))}
+                 
                 </ul>
               </li>
+              
             ) : (
               <li class="nav-item">
                 <a
@@ -106,12 +108,12 @@ const { pathname } = Astro.url;
       }
       {
         navigation_button.enable && (
-          <li class="mt-4 inline-block lg:hidden">
+          <li class="mt-4 inline-block ">
             <a
               class="btn btn-outline-primary btn-sm"
               href={navigation_button.link}
             >
-              {navigation_button.label}
+              {navigation_button.label} 
             </a>
           </li>
         )

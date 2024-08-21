@@ -1,6 +1,6 @@
 ---
 enable: true
-title: "Ils ont déjà fait leur collecte ou vide dressing"
+title: ""
 description: ""
 
 # Companies

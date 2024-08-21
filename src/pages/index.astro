@@ -2,7 +2,6 @@
 import ImageMod from "@/components/ImageMod.astro";
 import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
-import CallToAction from "@/partials/CallToAction.astro";
 import AuthorCard from "@/components/AuthorCard.astro";
 import Testimonial from "@/partials/Companies.astro";
 import Typeofcontact from "@/partials/TypeOfContact.astro";
@@ -16,12 +15,6 @@ import Companies from "@/partials/Companies.astro";
 
 
 interface Homepage {
-  banner: {
-    title: string;
-    content: string;
-    image: string;
-    button: Button;
-  };
   features: Feature[];
 }
 
@@ -34,57 +27,15 @@ const COLLECTION_FOLDER = "steps";
 
 const authorIndex = await getEntry(COLLECTION_FOLDER, "-index");
 const authors = await getSinglePage(COLLECTION_FOLDER);
-const { banner, features }: Homepage = homepage.data;
+const { features }: Homepage = homepage.data;
 ---
 
 <Base>
-  <!-- Banner -->
-  <section class="section pt-14">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="lg:col-7 md:col-9 mb-8 text-center">
-          <h1
-            set:html={markdownify(banner.title)}
-            class="mb-4 text-h3 lg:text-h1"
-          />
-          <p set:html={markdownify(banner.content)} class="mb-8" />
-          {
-            banner.button.enable && (
-              <a
-                class="btn btn-primary"
-                href={banner.button.link}
-                target={
-                  banner.button.link.startsWith("http") ? "_blank" : "_self"
-                }
-                rel="noopener"
-              >
-                {banner.button.label}
-              </a>
-            )
-          }
-        </div>
-        {
-          banner.image && (
-            <div class="col-12">
-              <ImageMod
-                src={banner.image}
-                height={380}
-                width={1200}
-                alt="banner"
-                format="webp"
-              />
-            </div>
-          )
-        }
-      </div>
-    </div>
-  </section>
-  <!-- /Banner -->
 
   <!-- Features -->
   {
     features.map((feature, index: number) => (
-      <section class={`section-sm ${index % 2 === 0 && "bg-gradient"}`}>
+      <section class={`section-sm ${index % 2 === 1 && "bg-gradient"}`}>
         <div class="container">
           <div class="row items-center justify-between">
             <div
@@ -92,8 +43,8 @@ const { banner, features }: Homepage = homepage.data;
             >
               <ImageMod
                 src={feature.image}
-                height={480}
-                width={520}
+                height={512}
+                width={512}
                 alt={feature.title}
                 format="webp"
               />
@@ -122,10 +73,10 @@ const { banner, features }: Homepage = homepage.data;
   }
   <!-- /Features -->
   
-  <section id="commentcamarche" class="section-sm pb-0">
-    <div class="container">
+  <section id="realisations" class="section-sm pb-0">
+    <div class="container bg-secondary">
       <div class="row justify-center">
-        <h2  set:html={markdownify(authorIndex.data.title)} class="mb-4" />
+        <h2  set:html={markdownify(authorIndex.data.title)} class="text-center" />
 
         {
           authors.map((author) => (
@@ -137,7 +88,5 @@ const { banner, features }: Homepage = homepage.data;
       </div>
     </div>
   </section>  
-  <Companies companies={companies} />
-  <Pourquoi pourquoi={pourquoi}/>
-  <Typeofcontact typeofcontact={typeofcontact}/>
+  <Pourquoi id="tarifs" pourquoi={pourquoi}/>
 </Base>
