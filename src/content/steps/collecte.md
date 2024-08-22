@@ -1,8 +1,7 @@
 ---
-title: DES COLLECTES EN ENTREPRISES
+title: COLLECTE DES INFORMATIONS
 email: johndoe@email.com
 image: ""
 description: Collecte en entreprise
 ---
-
- se déplace sur les lieux de travail pour collecter les vêtements des employés. Ces vêtements sont triés en fonction de leur état et de leur qualité afin d'être soit revendus, soit donnés à une association partenaire soit recyclés.
+Appels téléphoniques et visioconférences tout le long votre projet, en amont de la réalisation jusqu'à l'aboutissement un résultat vous satisfaisant. Nous organisons aussi des journées sur site pour suivre l’évolution du projet et faire des points de suivi documentaire si votre projet le nécessite.

@@ -5,7 +5,7 @@ const { pourquoi } = Astro.props;
 
 {
   pourquoi.data && (
-    <section class="section-sm ">
+    <section id="tarifs"  class="section-sm ">
       <div class="container">
         <div class="row">
             <h2 set:html={markdownify(pourquoi.data.title)} class="mb-4" />

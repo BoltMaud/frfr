@@ -1,8 +1,8 @@
 ---
-title: LA MEILLEURE REDISTRIBUTION POSSIBLE
+title: CONFIRMATION DU RENDU
 email: williamjacob@email.com
 image: ""
 description: this is meta description
 ---
 
-Les vêtements récoltés sont soit vendus grâce à notre réseaux de boutiques partenaires, soit donnés à une association ou une entreprise de charité, soit recyclés dans le cas de vêtements tâchés ou troués.
+Pour nous assurer de la satisfaction client, nous demandons toujours une validation de votre part sur la qualité du livrable rendu. En cas de modifications souhaitées, nous effectuons ces retouches gratuitement pour satisfaire votre demande conformément à votre besoin.

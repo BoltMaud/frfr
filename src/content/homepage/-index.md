@@ -6,6 +6,6 @@ features:
     image: "/images/auto.png"
     content: ""
     bulletpoints:
-      - "Pour vos projets en cours ou à venir, sur des plans gne et gna."
-      - "Pour vous accompagner dans vos choix et recrutements."
+      - "Pour vos projets en cours ou à venir, sur des plans, schémas, synoptiques et autres. "
+      - "Pour vous accompagner tout le long de votre projet, que ce soit en étude en EXE ou en DOE, et permettre un suivi qui évolue en phase avec vos besoins. "
 ---

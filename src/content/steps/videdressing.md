@@ -1,8 +1,8 @@
 ---
-title: UN EVENEMENT DE VIDE DRESSING
+title: ENVOI DE LIVRABLES
 email: samwilson@email.com
 image: ""
 description: this is meta description
 ---
 
-Afin de sensibiliser les collaboteurs,  organise un évènement de vide dressing dans les locaux. Cela anime les bureaux autour d'un sujet qui touche tous les employés.
+Des envois réguliers de vos documents avec monté d’indice et bullage des modifications sont disuctés ensemble afin de faire avancer plus rapidement les projets. 

@@ -4,9 +4,9 @@ enable: true
 
 pourquoi:
   - title: "A la page"
-    description: "Vous avez une feuille à corriger ou valider ? L'offre à la page vous sastifaira parfaitement avec un tarif préférentiel de euros HT (sous condition)."
-  - title: "Projet to be done "
-    description: "Votre idée ou projet a besoin d'être concrétisé. Boltco propose des plans sur mesure à l'écoute du client. Les tarifs commencent à .. pour . "
-  - title: "Mission de plusieurs mois"
-    description: "BoltCo accompagne des grands clients à projets ambitieux. N'hésitez pas à demander un rendez-vous pour connaitre les disponibilités et modalités."
+    description: "Vous avez un folio à modifier ?  L’offre « à la page » vous satisfera parfaitement avec un tarif  de 30Euros HT (sous conditions)."
+  - title: "Nouveau schéma"
+    description: " Vous avez besoin d’un nouveau schéma similaire à un modèle ? Nous reprennons vos codes de dessin pour coller à vos standard à partir de 50euro HT (sous conditions)."
+  - title: "Suivi de missions sur la durée"
+    description: "Accompagnement dans le suivi de vos études, reprises suites aux divers retours MOE / MOA / chantier / clients. Prix sur devis en fonction des spécificté pour correspondre au mieux à votre besoin."
 ---
