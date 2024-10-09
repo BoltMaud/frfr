@@ -11,7 +11,7 @@ import config from "./src/config/config.json";
 // https://astro.build/config
 export default defineConfig({
   site: "https://github.com/BoltMaud/frfr",
-  base: "./frfr/",
+  base: ".",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: {
     service: squooshImageService(),
